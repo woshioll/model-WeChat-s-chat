@@ -1,0 +1,89 @@
+#box{
+    margin: 30px 400px;
+    width: 290px;
+    height: 516px;
+    background: url(img/wechat.jpg) no-repeat;
+    position: relative;
+}
+#list{
+    position: absolute;
+    top: 54px;
+    bottom: 40px;
+    width: 100%;
+    overflow:auto;
+}
+#list li{
+    margin-bottom: 10px;
+}
+#msg{
+    height: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#msg span{
+    float: left;
+    margin-top: 4px;
+    margin-left: 4px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999;
+    text-align: center;
+}
+#msg span img{
+    vertical-align: middle;
+}
+#msg form{
+    float: right;
+    margin: 8px 6px 0;
+    font-size: 0;
+}
+#btn1,#btn2{
+    box-sizing: border-box;
+    height: 28px;
+    vertical-align: top;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+#btn1{
+	width: 184px;
+}
+#btn2{
+	width: 54px;
+	border: 1px solid #999;
+	border-radius: 10px;
+	color: #fff;
+	background-color: green;
+}
+.fl img{
+	float: left;
+}
+.fr img{
+	float: right;
+}
+.fl p{
+	float: left;
+	line-height: 30px;
+	min-height: 30px;
+	min-width: 30px;
+	background: #00FF00;
+	padding: 8px 6px;
+	border-radius: 15px;
+	margin-left: 10px;
+	max-width:200px;
+	word-break: break-all;
+}
+.fr p{
+	float: right;
+	line-height: 30px;
+	min-height: 30px;
+	min-width: 30px;
+	background: #0000FF;
+	padding: 8px 6px;
+	border-radius: 15px;
+	margin-right: 10px;
+	max-width: 200px;
+	word-break: break-all;
+}
